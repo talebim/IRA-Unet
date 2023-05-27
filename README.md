@@ -7,25 +7,27 @@ This repository contains the  implementation for automated cardiac segmentation 
 
 1.Register and download ACDC-2017 dataset from https://www.creatis.insa-lyon.fr/Challenge/acdc/index.html
 
-2.Run the script main.py.
+2.Run the script preprocess.py.
+
+3.A folder named loc192 will be created which contain preprocessed and croped train and validation dataset.
+
+4.Run the script main.py.
 
 ```
-python main.py --Data-root --Loc-path --Save-path
+python main.py --Data-root --Save-path
 ```
 Data-root: Folder to which you put training data
-
-Loc-path: Where to save preprocessed and localized images
 
 Save-path: Where to save segmented images
 
 The segmented image of test set will be saved in outputs
 
 ## **Steps to test the pretrained model:**
- 1.To reproduce the results download weights of our best model in :
+1.To reproduce the results, download weights of our best model from
  
- 1.download ACDC-2017 dataset from https://www.creatis.insa-lyon.fr/Challenge/acdc/index.html
+2.Put the last.ckpt file in ckpt folder
 
-2.Run the script main.py.
+2.Run the script predict.py.
 
 ## **Requirements**
 The code is tested on Ubuntu 20.04 with the following components:
