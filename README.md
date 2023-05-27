@@ -31,3 +31,10 @@ Save-path: Where to save segmented images
     ├── patient002
     ├── ...
     ```
+## **Requirements**
+The code is tested on Ubuntu 20.04 with the following components:
+
+Software
+Python 3.8
+pytorch 1.13
+CUDA 11.8 with CuDNN 5.1
