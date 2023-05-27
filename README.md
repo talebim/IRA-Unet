@@ -7,6 +7,7 @@ This repository contains the  implementation for automated cardiac segmentation 
 
 1.Register and download ACDC-2017 dataset from https://www.creatis.insa-lyon.fr/Challenge/acdc/index.html
 2.Run the script main.py.
+
 ```
 python main.py --Data-root --loc-path --save-path
 ```
