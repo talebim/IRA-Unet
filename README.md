@@ -10,5 +10,10 @@ This repository contains the  implementation for automated cardiac segmentation 
 2.Run the script main.py.
 
 ```
-python main.py --Data-root --loc-path --save-path
+python main.py --Data-root --Loc-path --Save-path
 ```
+Data-root: Folder to which you put training data
+
+Loc-path: Where to save preprocessed and localized images
+
+Save-path: Where to save segmented images
