@@ -17,3 +17,17 @@ Data-root: Folder to which you put training data
 Loc-path: Where to save preprocessed and localized images
 
 Save-path: Where to save segmented images
+
+
+## dataset
+    ```
+    sequences
+    ├── patient001
+    │   ├── 
+    │   ├──
+    │   ├── 
+    │   ├── 
+    │   ├── info.cfg
+    ├── patient002
+    ├── ...
+    ```
