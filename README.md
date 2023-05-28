@@ -14,16 +14,13 @@ This repository contains the  implementation for automated cardiac segmentation 
 4.Run the script main.py.
 
 ```
-python main.py --Data-root --Save-path
+python main.py --data-root your DATA_DIR --save-path your OUT_DIR
 ```
-Data-root: Folder to which you put training data
-
-Save-path: Where to save segmented images
 
 The segmented image of test set will be saved in outputs
 
 ## **Steps to test the pretrained model:**
-1.To reproduce the results, download weights of our best model from
+1.To reproduce the results, download weights of our best model from **[here](https://drive.google.com/file/d/1iMSjN4b1y_uBoCqYYazqd33tP7uWjvCq/view?usp=drive_link)**
  
 2.Put the last.ckpt file in ckpt folder
 
