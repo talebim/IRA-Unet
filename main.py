@@ -75,7 +75,7 @@ if __name__ == '__main__':
     parser.add_argument('--loc_root', type=str, default=LOC_ROOT)
     parser.add_argument('--save_path', type=str, required=True)
     parser.add_argument('--ckpt', default='./ckpt', help='folder to output checkpoints')
-    parser.add_argument('--num_epoch', default=2, type=int, help='epochs to train for')
+    parser.add_argument('--num_epoch', default=350, type=int, help='epochs to train for')
     parser.add_argument('--batch_size', default=15, type=int, help='input batch size')
     parser.add_argument('--ref_size', default=192, type=int, help='ROI size')
     args = parser.parse_args()
