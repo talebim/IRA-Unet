@@ -28,6 +28,9 @@ The segmented image of test set will be saved in outputs
 2.Put the last.ckpt file in ckpt folder
 
 2.Run the script predict.py.
+```
+python predict.py --data-root your DATA_DIR --save-path your OUT_DIR
+```
 
 ## **Requirements**
 The code is tested on Ubuntu 20.04 with the following components:
