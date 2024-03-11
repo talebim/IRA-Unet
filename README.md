@@ -1,7 +1,7 @@
 # IRA-Unet
 ## **Introduction**
 
-This repository contains the  implementation for automated cardiac segmentation introduced in the following paper: "[IRA-Unet: Inception Residual Attention Unet in Adversarial Network for Cardiac MRI Segmentation](https://www.techrxiv.org/articles/preprint/IRA-Unet_Inception_Residual_Attention_Unet_in_Adversarial_Network_for_Cardiac_MRI_Segmentation/23896641)"
+This repository contains the  implementation for automated cardiac segmentation introduced in the following paper: "[IRAU-Net: Inception Residual Attention U-Net in Adversarial Network for Cardiac MRI Segmentation](https://www.techrxiv.org/articles/preprint/IRA-Unet_Inception_Residual_Attention_Unet_in_Adversarial_Network_for_Cardiac_MRI_Segmentation/23896641)"
 
 ## **Steps to train and test the model:**
 
