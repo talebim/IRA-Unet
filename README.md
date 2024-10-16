@@ -12,7 +12,7 @@ This repository contains the  implementation for automated cardiac segmentation 
 python preprocess.py --data-root your DATA_DIR
 ```
 
-3. A folder named loc192 will be created which contain preprocessed and croped train and validation dataset.
+3. A folder named loc192 will be created which contains a preprocessed and cropped train and validation dataset.
 
 4. Run the script main.py.
 
@@ -20,12 +20,12 @@ python preprocess.py --data-root your DATA_DIR
 python main.py --data-root your DATA_DIR --save-path your OUT_DIR
 ```
 
-The segmented image of the test set will be saved in outputs
+The segmented image of the test set will be saved in the outputs.
 
-## **Steps to test the pretrained model:**
-1. To reproduce the results, download weights of our best model from **[here](https://drive.google.com/file/d/1iMSjN4b1y_uBoCqYYazqd33tP7uWjvCq/view?usp=drive_link)**
+## **Steps to test the pre-trained model:**
+1. To reproduce the results, download the weights of our best model from **[here](https://drive.google.com/file/d/1iMSjN4b1y_uBoCqYYazqd33tP7uWjvCq/view?usp=drive_link)**
  
-2. Put the last.ckpt file in ckpt folder
+2. Put the last.ckpt file in the ckpt folder
 
 2. Run the script predict.py.
 ```
